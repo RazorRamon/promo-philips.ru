@@ -1,0 +1,195 @@
+/* Verstal: V V P */
+/* portnovlaboratory.ru */
+
+/* ----- */
+/* FONTS */
+/* ----- */
+  
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("/fonts/MuseoSansCyrl-300.eot");
+  src: url("/fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansCyrl-300.woff") format("woff"), url("/fonts/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* General styles */
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #fff;
+}
+
+* {
+	margin: 0px;
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+
+.clear_div {
+	clear: both;
+	height: 0px;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+header {
+	width: 100%;
+	height: 618px;
+	border-bottom: 1px solid #cecece;
+}
+
+.block_header {
+	width: 1004px;
+	height: 618px;
+	margin: 0 auto !important;
+}
+
+header .top_menu {
+	background: url('/images/header_top-menu.png') 0px 0px no-repeat;
+	width: 1004px;
+	height: 121px;
+}
+
+/* Анимация */
+
+@-webkit-keyframes Anima {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes Anima {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes Anima {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes Anima {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+header .banner_post {
+	-webkit-animation: Anima 5s; /* Safari 4+ */
+	-moz-animation:    Anima 5s; /* Fx 5+ */
+	-o-animation:      Anima 5s; /* Opera 12+ */
+	animation:         Anima 5s; /* IE 10+, Fx 29+ */
+}
+
+header .post_logo {
+	float: left;
+	position: relative;
+	background: url('/images/post_logo.png') 0px 0px no-repeat;
+	width: 185px;
+	height: 90px;
+	margin: 61px 0 0 42px;
+	z-index: 10;
+}
+
+header .philips_text {
+	position: absolute;
+	width: 400px;
+	height: 150px;
+	font: 30px "Museo Sans Cyrl";
+	margin: 196px 0 0 40px;
+	z-index: 10;
+}
+
+header .post_img {
+	position: relative;
+	background: url('/images/post_img.png') 0px 0px no-repeat;
+	width: 989px;
+	height: 502px; /* 550px */
+	margin: -6px 0 0 42px;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+
+main {
+	background-color: #f7f7f7;
+	width: 100%;
+}
+
+.block_main {
+	width: 1004px;
+	padding-top: 40px;
+	margin: 0 auto !important;
+}
+
+main .title {
+	font-size: 30px;
+	font-family: "Museo Sans Cyrl";
+	color: #004a99;
+	font-weight: normal;
+	margin: 0px 0 10px 40px;
+}
+
+main .poducts {
+	position: relative;
+	background: url('/images/products.png') 0px 0px no-repeat;
+	width: 935px;
+	height: 909px;
+	margin: 32px 0 40px 34px;
+}
+
+main .products-string {
+	position: relative;
+	background: url('/images/products-string.png') 0px 0px no-repeat;
+	width: 935px;
+	height: 311px;
+	margin: -32px 0 30px 34px;
+}
+
+main .shild {
+	position: absolute;
+	width: 81px;
+	height: 81px;
+	margin: 22px 0 0 34px;
+	z-index: 10;
+}
+
+main .rules {
+	margin: 0px 0 48px 0px;
+}
+
+main .rules p {
+	font-size: 16px;
+	font-family: "Museo Sans Cyrl";
+	color: #000;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0px 0 0px 40px;
+}
+
+main .rules a {
+	font-size: 16px;
+	font-family: "Museo Sans Cyrl";
+	color: #000;
+	font-weight: normal;
+	text-decoration: underline;
+	margin: 0px 0 0px 40px;
+}
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+footer {
+	width: 1004px;
+	margin: 0 auto !important;
+}
+
+footer img {
+	margin: 16px 5px 0px !important;
+}
